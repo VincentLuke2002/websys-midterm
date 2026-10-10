@@ -68,7 +68,7 @@ Vertex POS is a complete, database-backed point-of-sale system built with CodeIg
 Instead of migrations, import `database/pos_midterm.sql`. It includes the complete relational schema and sample data.
 
 ```powershell
-C:\xampp\mysql\bin\mysql.exe -u root < database\pos_midterm.sql
+Get-Content database\pos_midterm.sql | C:\xampp\mysql\bin\mysql.exe -u root
 ```
 
 ## Demo login
