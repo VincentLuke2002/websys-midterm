@@ -1,0 +1,6 @@
+<?= $this->extend('layouts/main') ?>
+<?= $this->section('content') ?>
+<div class="page-heading"><div><p class="eyebrow">About the project</p><h1>A complete CodeIgniter POS.</h1><p class="lead">This midterm project combines secure authentication, validated CRUD forms, image processing, relational data, and an inventory-aware sales workflow.</p></div></div>
+<section class="stat-grid"><article class="stat-card"><span class="stat-label">Manage</span><strong class="stat-value">Products</strong></article><article class="stat-card"><span class="stat-label">Build</span><strong class="stat-value">Customers</strong></article><article class="stat-card"><span class="stat-label">Secure</span><strong class="stat-value">Staff</strong></article><article class="stat-card accent"><span class="stat-label">Track</span><strong class="stat-value">Sales</strong></article></section>
+<div class="panel"><h2>Built for reliable transactions</h2><p class="lead">Every completed sale records its product, optional customer, staff member, quantity, total, and date. Stock is reduced inside a database transaction, and requests above available inventory are rejected with a clear message.</p></div>
+<?= $this->endSection() ?>
